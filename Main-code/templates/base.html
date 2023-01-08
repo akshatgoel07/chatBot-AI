@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="../standalone-frontend/style.css">
+<style>
+    body{
+        background-color: #0b1327;
+    }
+    .our-container {
+        /* background-image: url('../images/bg.png'); */
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .header-title {
+        text-align: center;
+    }
+
+    .header-title h1 {
+        font-weight: 700;
+        text-align: center;
+        padding-top: 1rem;
+        font-size: 64px;
+        background: linear-gradient(180deg, #119CD4 0%, #7C2DDE 73.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .header-title p {
+        font-weight: 500;
+        font-size: 22px;
+        text-align: center;
+
+        color: rgba(255, 255, 255, 0.7);
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        <img style= "width: 50px; height: 50px ; "src="https://i.ibb.co/JxFtH3Y/image-148.png"
+                            alt="image" >
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Chat support</h4>
+                        <p class="chatbox__description--header">Hi. My name is Amy. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages">
+                    <div></div>
+                </div>
+                <div class="chatbox__footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+            <div class="chatbox__button">
+                <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+            </div>
+        </div>
+    </div>
+    <div class="our-container">
+        <!-- <img src= alt=""> -->
+        <div class="header-title">
+            <h1>Amy - Chat bot</h1>
+            <p>Your go to bot for GEU admission assistance</p>
+        </div>
+    </div>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root | tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

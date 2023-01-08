@@ -1,0 +1,200 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "how",
+      "patterns": [
+        "How are you?",
+        "how you doing?",
+        "How's it going?",
+        "how are you feeling",
+        "How are you feeling today"
+      ],
+      "responses": [
+        "I am doing good, thanks for asking! How can i assist you?"
+      ]
+    },
+    {
+      "tag": "what",
+      "patterns": [
+        "what are you?"
+      ],
+      "responses": [
+        "I am Amy, a General Purpose Chatbot, who can also assist you with Admission related queries!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "temperature",
+        "weather",
+        "how hot is it"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "news",
+        "latest news",
+        "india news"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": [
+        "current cricket matches",
+        "cricket score"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "top songs",
+        "best songs",
+        "hot songs",
+        " top 10 songs",
+        "top ten songs"
+      ],
+      "responses": [
+        "..."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "lang",
+      "patterns": [
+        "  What language are you written in? "
+      ],
+      "responses": [
+        " Python.",
+        " I am written in Python."
+      ]
+    },
+    {
+      "tag": "datetime",
+      "patterns": [
+        "What is the time",
+        "what is the date",
+        "date",
+        "time",
+        "tell me the date",
+        "day",
+        "what day is is today"
+      ],
+      "responses": [
+        "Date and Time"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about GEU",
+        "How is graphic era university",
+        "Is graphic era university good?",
+        "What is graphic era university",
+        "Tell me about graphic era university"
+      ],
+      "responses": [
+        "At Graphic Era (Deemed to be University) we believe that knowledge comes from enthusiasm, curiosity, and a willingness to discover. Our study programs are competitive, geared towards industry requirements and expand to all round knowledge. Our programs rang from engineering, science, technology, business, management, commerce,  hospitality to humanities and social sciences"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "What is the procedure to take admission",
+        "how to take admission",
+        "admission process",
+        "admission query"
+      ],
+      "responses": [
+        "Hop onto https://www.geu.ac.in/content/geu/en/admission-aid.html"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What are the courses available",
+        "courses ",
+        "what courses do you provide",
+        "What are some of your courses",
+        "Under Graduate courses"
+      ],
+      "responses": [
+        "Animation and Design Arts, Humanities, and Social Sciences Commerce Computer Applications and IT Engineering and Architecture Hospitality and Tourism Management and Business Administration Medicine and Allied Sciences"
+
+      ]
+    },
+    {
+      "tag": "LeetCode",
+      "patterns": [
+        "Give me a LeetCode question?",
+        "Give me a coding question",
+        "Test my coding skills",
+        "I want to solve a question"
+      ],
+      "responses": [
+        "Here is your question"
+      ]
+    }
+  ]
+}
